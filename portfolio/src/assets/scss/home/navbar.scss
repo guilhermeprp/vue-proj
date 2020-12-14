@@ -1,0 +1,45 @@
+nav{
+
+  z-index: 99999;
+  background-color: transparent;
+  width: 100vw;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  .header{
+
+    .nav-bar{
+      display: flex;
+      align-items: center;
+
+      img{
+
+        height: 70px;
+        margin-top: 5px;
+        margin-left: 20px;
+
+        
+      }
+
+      label{
+
+        display: inline-block;
+        color: whitesmoke;
+
+      }
+
+      .menu-toggle{
+
+        height: 100%;
+        width: 80px;
+        background-color: #444;
+        position: absolute;
+        right: 0;
+        top: 0;
+
+      }
+    }
+  }
+}
