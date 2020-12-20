@@ -1,5 +1,4 @@
-nav{
-
+nav {
   z-index: 99999;
   background-color: transparent;
   width: 100vw;
@@ -7,38 +6,62 @@ nav{
   position: fixed;
   top: 0;
   left: 0;
-
-  .header{
-
-    .nav-bar{
+  padding-top: 30px;
+  padding-left: 15px;
+  .header {
+    .nav-bar {
       display: flex;
       align-items: center;
 
-      img{
+      .home-button {
+        display: contents;
 
-        height: 70px;
-        margin-top: 5px;
-        margin-left: 20px;
+        img {
+          filter: invert(100%) hue-rotate(180deg) saturate(5);
+          height: 70px;
+          margin-top: 5px;
+          margin-left: 20px;
+        }
 
-        
+        label {
+          display: inline-block;
+
+          margin-top: 7px;
+          color: #d9def1;
+
+          span {
+            display: block;
+          }
+          .nav-logo-title {
+            font-size: 20px;
+            font-weight: 600;
+          }
+          .nav-logo-subtitle {
+            letter-spacing: 5px;
+            margin-left: 10px;
+          }
+        }
+      }
+      .home-button:hover {
+        cursor: pointer;
+        img {
+          filter: none;
+          transition: all 0.3s ease;
+        }
+        label {
+          color: black;
+          transition: all 0.3s ease;
+          cursor: pointer;
+        }
       }
 
-      label{
-
-        display: inline-block;
-        color: whitesmoke;
-
-      }
-
-      .menu-toggle{
-
+      .menu-toggle {
         height: 100%;
         width: 80px;
         background-color: #444;
         position: absolute;
         right: 0;
         top: 0;
-
       }
     }
   }
