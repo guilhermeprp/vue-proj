@@ -17,7 +17,7 @@ nav {
         display: contents;
 
         img {
-          filter: invert(100%) hue-rotate(180deg) saturate(5);
+          filter: invert(100%) hue-rotate(190deg) saturate(5) contrast(160%);
           height: 70px;
           margin-top: 5px;
           margin-left: 20px;
@@ -27,7 +27,7 @@ nav {
           display: inline-block;
 
           margin-top: 7px;
-          color: #d9def1;
+          color: #ffffff;
 
           span {
             display: block;
@@ -49,8 +49,9 @@ nav {
           transition: all 0.3s ease;
         }
         label {
-          color: black;
+          color: #202125;
           transition: all 0.3s ease;
+          text-shadow: 0px 0px 20px #606163;
           cursor: pointer;
         }
       }
@@ -75,7 +76,7 @@ nav {
           .menu-icon-bar {
             height: 3px;
             width: 30px;
-            background-color: #d9def1;
+            background-color: #ffffff;
           }
           .menu-icon-bar-off {
             height: 5px;
