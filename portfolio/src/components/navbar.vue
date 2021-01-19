@@ -13,7 +13,7 @@
           <div class="menu-icon-box">
             <div class="menu-icon-bar" />
             <div class="menu-icon-bar-off" />
-            <div id="mid-bar" class="menu-icon-bar" />
+            <div class="menu-icon-bar" id="mid-bar" />
             <div class="menu-icon-bar-off" />
             <div class="menu-icon-bar" />
           </div>
