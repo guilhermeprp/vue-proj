@@ -10,7 +10,7 @@
   </div>
   <div class="row">
     <div class="wrapper">
-      <div class="box-titles">
+      <div class="box-titles" data-aos="fade-left" data-aos-duration="1000">
         <h5 class="title1">GUILHERME PIMENTA</h5>
         <h1 class="title2">Front End Developer</h1>
         <h3 class="title3">
