@@ -71,4 +71,9 @@ section.skills-section {
       }
     }
   }
+  @media screen and (max-width: 576px) {
+    .wrapper {
+      padding-top: 10vh;
+    }
+  }
 }
