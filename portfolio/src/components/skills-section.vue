@@ -12,10 +12,11 @@
               <h2>
                 REACT
               </h2>
-              <br />
               <p>
-                Ahusahudh iasodhoash hjashijdha ii asiuhas dhsai diuas huiasdh
-                iuashdi
+                Mastery:
+              </p>
+              <p>
+                Skillful
               </p>
             </div>
           </div>
@@ -29,10 +30,12 @@
               <h2>
                 VUE JS
               </h2>
-              <br />
+
               <p>
-                Ahusahudh iasodhoash hjashijdha ii asiuhas dhsai diuas huiasdh
-                iuashdi
+                Mastery:
+              </p>
+              <p>
+                Skillful
               </p>
             </div>
           </div>
@@ -42,13 +45,15 @@
           <div class="highlight"></div>
           <div class="content">
             <div>
+              <img />
               <h2>
-                TERCEIRO
+                FLUTTER
               </h2>
-              <br />
               <p>
-                Ahusahudh iasodhoash hjashijdha ii asiuhas dhsai diuas huiasdh
-                iuashdi
+                Mastery:
+              </p>
+              <p>
+                Medium
               </p>
             </div>
           </div>
