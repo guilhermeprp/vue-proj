@@ -1,18 +1,11 @@
 <template>
   <section class="skills-section">
-    <div class="wrapper" data-aos="fade-right" data-aos-duration="1000">
+    <div class="wrapper" data-aos="fade-right" data-aos-duration="1200">
       <h1>Skills</h1>
       <h5>Pass the mouse over the cards and discover my skills:</h5>
       <div class="container">
-        <div
-          class="card"
-          v-tilt="{
-            perspective: 400,
-            transition: true,
-            glare: 1,
-            'max-glare': 0.1,
-          }"
-        >
+        <div class="card" id="card-one">
+          <div class="highlight"></div>
           <div class="content">
             <div>
               <img src="../assets/images/logo-react.png" />
@@ -27,15 +20,9 @@
             </div>
           </div>
         </div>
-        <div
-          class="card"
-          v-tilt="{
-            perspective: 400,
-            transition: true,
-            glare: 1,
-            'max-glare': 0.1,
-          }"
-        >
+
+        <div class="card">
+          <div class="highlight"></div>
           <div class="content">
             <div>
               <img src="../assets/images/logo-vuejs.png" />
@@ -50,15 +37,9 @@
             </div>
           </div>
         </div>
-        <div
-          class="card"
-          v-tilt="{
-            perspective: 400,
-            transition: true,
-            glare: 1,
-            'max-glare': 0.1,
-          }"
-        >
+
+        <div class="card" id="card-three">
+          <div class="highlight"></div>
           <div class="content">
             <div>
               <h2>
