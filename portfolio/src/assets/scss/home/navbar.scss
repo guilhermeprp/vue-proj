@@ -56,11 +56,12 @@ nav {
       }
 
       .box-menu-button {
+        // display: flex;
+        display: none;
         height: 100%;
         width: 80px;
         background-color: transparent;
         position: absolute;
-        display: flex;
         align-items: center;
         justify-content: center;
         text-align: -webkit-center;
