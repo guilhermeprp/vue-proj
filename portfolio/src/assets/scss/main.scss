@@ -1,15 +1,12 @@
-
 @import "./home/navbar.scss";
 @import "./home/home-banner.scss";
+@import "./home/skills-section.scss";
 
-$primary-color : #202125;
-
-body{
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    height: 100%;
-    background-color: $primary-color;    
-    margin: 0;
+body {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  background-color: #202125;
+  margin: 0;
 }
-
