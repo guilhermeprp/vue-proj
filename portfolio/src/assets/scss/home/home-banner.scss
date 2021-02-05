@@ -5,17 +5,17 @@
   background-size: cover;
   z-index: -1;
   margin-top: -50px;
-
-  .home-bg-gradient {
-    height: 100vh;
-    width: 100%;
-    z-index: 0;
-    opacity: 1;
-    background-image: linear-gradient(transparent 60%, #202125 90%);
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
+  animation: bgAnimation 3s normal;
+}
+.home-bg-gradient {
+  height: 100vh;
+  width: 100%;
+  z-index: 0;
+  opacity: 1;
+  background-image: linear-gradient(transparent 60%, #202125 90%);
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .row {
@@ -34,7 +34,8 @@
       height: 100%;
 
       .title1 {
-        color: #c0c0c2;
+        color: #202125;
+        // color: #c0c0c2;
         font-size: 20px;
         font-weight: 100;
         letter-spacing: 10px;
@@ -111,5 +112,20 @@
 @media screen and (max-width: 375px) {
   .row .wrapper {
     padding: 0px 2px;
+  }
+}
+
+@keyframes bgAnimation {
+  0% {
+    transform: translateY(300px);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0.1;
   }
 }
