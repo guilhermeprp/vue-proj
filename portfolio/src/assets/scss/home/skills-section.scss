@@ -52,11 +52,18 @@ section.skills-section {
         }
         .content {
           display: flex;
-          padding: 20px;
+          padding: 20px 50px;
+          width: 100%;
           transition: 0.5s;
           opacity: 1;
           color: #e2e1de;
           text-align: center;
+          justify-content: center;
+
+          div {
+            width: 100%;
+          }
+
           h2 {
             display: block;
             width: 100%;
@@ -92,6 +99,7 @@ section.skills-section {
             animation-play-state: paused;
           }
         }
+
         &::before {
           content: "";
           background-color: #222;
@@ -128,6 +136,7 @@ section.skills-section {
       .card:nth-child(3) {
         .content {
           div p:nth-child(3) {
+            place-content: center;
             &::after {
               content: "";
               background-color: #189eb6;
@@ -152,7 +161,7 @@ section.skills-section {
         }
         &:hover div p:nth-child(4) {
           animation: medium 0.7s linear 0s forwards;
-          animation-delay: 0.8s;
+          animation-delay: 1.2s;
           animation-play-state: running;
         }
       }
