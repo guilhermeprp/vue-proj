@@ -10,13 +10,12 @@
           </label>
         </div>
         <div class="ip">
-          <a href="https://whatismyip.com.br">
-            <img
-              src="http://whatismyip.com.br/myip.svg"
-              alt="Seu IP"
-              title="Seu IP"
-              border="0"
-          /></a>
+          <img
+            src="http://whatismyip.com.br/myip.svg"
+            alt="Seu IP"
+            title="Seu IP"
+            border="0"
+          />
         </div>
 
         <div class="box-menu-button">
