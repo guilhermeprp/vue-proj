@@ -9,6 +9,16 @@
             <span class="nav-logo-subtitle"> Front end Dev.</span>
           </label>
         </div>
+        <div class="ip">
+          <a href="https://whatismyip.com.br">
+            <img
+              src="http://whatismyip.com.br/myip.svg"
+              alt="Seu IP"
+              title="Seu IP"
+              border="0"
+          /></a>
+        </div>
+
         <div class="box-menu-button">
           <div class="menu-icon-box">
             <div class="menu-icon-bar" />
