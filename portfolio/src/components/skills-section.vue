@@ -7,10 +7,10 @@
         <div class="card" id="card-one">
           <div class="highlight"></div>
           <div class="content">
-            <div>
+            <div class="encapsulate">
               <img src="../assets/images/logo-react.png" />
               <h2>
-                REACT
+                REACT/NATIVE
               </h2>
               <p>
                 Mastery:
